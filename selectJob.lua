@@ -83,7 +83,7 @@ quest selectJob begin
 			end
 		end
 		
-		when login or eneter or levelup with (pc.get_level() >= 5 and pc.get_skill_group() == 0) begin
+		when login or enter or levelup with (pc.get_level() >= 5 and pc.get_skill_group() == 0) begin
 			set_state("run");
 		end
 	end
